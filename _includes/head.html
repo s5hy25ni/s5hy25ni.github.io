@@ -20,7 +20,14 @@
     {%- seo -%}
     {%- feed_meta -%}
     {%- if site.google_analytics -%}
-        {%- google_analytics -%}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-XXXXXXXXX-X');
+        </script>
     {%- endif -%}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 </head>

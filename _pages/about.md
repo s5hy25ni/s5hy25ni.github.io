@@ -1,32 +1,21 @@
 ---
 layout: page
-title: About the Purelog Theme
+title: About s5hy25ni
 permalink: /about/
 ---
 
-**Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
+### Skill.
+프로그래밍 언어 : Java, JavaScript, SQl<br>
+프론트엔드 : jQuery, JSP, JSTL, Bootstrap, Handlebars.js<br>
+백엔드 : Spring MVC, Spring Boot, MyBatis, Apache Tomcat<br>
+데이터베이스 : Oracle, MySQL<br>
+클라우드 서비스 : Oracle Cloud Instance, AWS EC2<br>
+협업 도구 : Slack, Jira, Notion<br>
+배포 및 결합 : Jenkins<br>
+버전관리 : GitHub<br>
+테스트 : JUnit, Spring-Test, Postman<br>
+개발도구 : Eclipse, Visual Studio Code<br>
 
-I created this after finishing [Watery](https://github.com/brennanbrown/watery) (which this theme is built off of), as a way to add more functionality and design while still remaining as lightweight as possible.
-
-This project is aimed towards those looking for an interesting theme for Jekyll that has features that aren't found commonly elsewhere, which I'll list down below.
-
-### Features
-
-Here are a few interesting features of this Jekyll theme:
-
-- A fully customizable and empty `_BLANK_config.yml` to make getting up-and-running easy.
-- A speedy, on-site search function using [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search).
-- Custom collections for different types of material (note-taking, journal writing, etc.)
-- An auto-generating archive page that displays all entries from _all_ collections.
-- Having a `_pages` collection for easier organization.
-- An author bio at the end of each post. (Located in `_inclues/author.html`)
-- Full Rouge support for syntax highlighting. (Currently using `base16.solarized.light`)
-- Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+### Channel.
+Email : s5hy25ni@gmail.com<br>
+GitHub : [github.com/s5hy25ni]([링크 주소](https://github.com/s5hy25ni))

@@ -1,12 +1,10 @@
 ---
 layout: page
 permalink: /archive
-title: Archive of All Collections
+title: Archive of All Posts
 ---
 
-**Note:** This page contains all material in anything in `_posts`, as well as all custom collections, such as `_notes`, and `_journals`, etc. with the only exception being `_pages`.
-
-{% for collection in site.collections %}
+<!-- {% for collection in site.collections %}
 {% if collection.label != "pages" %}
 
   <h2>Entries from {{ collection.label | capitalize }}</h2>
@@ -16,4 +14,24 @@ title: Archive of All Collections
     {% endfor %}
   </ul>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
+<div class="pure-u-1 tags">
+  {% for post in site.posts %}
+    {% assign cur_year = post.date | date: '%Y' %}
+
+    {% if cur_year != last_year %}
+      {% unless forloop.first %}</ul>{% endunless %}
+
+      <h3><time class="year lead d-block">{{ cur_year }}</time></h3>
+      {{ '<ul class="list-unstyled">' }}
+
+      {% assign last_year = cur_year %}
+    {% endif %}
+
+    <li class="archive-links">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>

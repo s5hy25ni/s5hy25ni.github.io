@@ -20,10 +20,12 @@ content-type: eg
 <main>
     {% for category in site.categories %}
         <div class="pure-u-1 tags">
-        <h2 id="{{ category | first }}">{{ category | first  }}</h2>
-        {% for post in category.last %}
-            <li id="category-content" style="padding-bottom: 0.6em;"><a href="{{post.url}}">{{ post.title }}</a></li>
-        {% endfor %}
+        <h3 id="{{ category | first }}">{{ category | first  }}</h3>
+        <ul>
+            {% for post in category.last %}
+                <li id="category-content" style="padding-bottom: 0.6em;"><a href="{{post.url}}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
         </div>
     {% endfor %}
     <br/>

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:wght@400;700;800&display=swap");
+@font-face {
+  font-family: 'JeonjuCraftGoR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftGoR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -14,7 +20,8 @@ p,
 ul,
 ol,
 li {
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "JeonjuCraftGoR", serif;
 }
 
 a {
@@ -24,7 +31,7 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  font-weight: bold;
   color: #111;
 }
 
@@ -84,15 +91,38 @@ th {
 
 footer {
   text-align: center;
-  font-size: 26px;
+  font-family: "JeonjuCraftGoR", serif;
+  font-size: 10px;
+}
+
+footer a {
+  font-weight: bold;
 }
 
 footer span {
+  text-decoration: underline;
+}
+
+.tooltip .tooltip-top {
+  width: 120px;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltip-top::after {
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-color: black transparent transparent transparent;
+}
+
+/* footer span {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-}
+} */
 
 /* footer .pure-menu-link {
   color: #444;
@@ -125,7 +155,7 @@ footer .pure-menu-link:hover {
 }
 
 .sidebar-info * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "JeonjuCraftGoR", serif;
 }
 
 .brand-photo {
@@ -168,7 +198,7 @@ footer .pure-menu-link:hover {
 .nav-item a {
   background: transparent;
   /* border: 2px solid #fff; */
-  color: #fff;
+  color: #ddd;
   padding: 0.5em 0.5em;
   /* margin-top: 1em;
   margin-right: 5px;
@@ -192,7 +222,7 @@ footer .pure-menu-link:hover {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.1em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "JeonjuCraftGoR", serif;
 }
 
 .content {
@@ -216,7 +246,7 @@ footer .pure-menu-link:hover {
 }
 
 .post-header p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "JeonjuCraftGoR", serif;
   font-size: 18px;
   margin-top: -10px;
 }
@@ -250,7 +280,7 @@ footer .pure-menu-link:hover {
 }
 
 .post-meta {
-  font-family: "Open Sans", sans-serif;
+  font-family: "JeonjuCraftGoR", serif;
   color: #444;
   margin: 0;
 }
@@ -291,7 +321,7 @@ footer .pure-menu-link:hover {
 }
 
 .archive-links {
-  font-size: 22px;
+  font-size: 16px;
   padding: 5px 0;
   list-style-type: decimal;
 }
@@ -341,6 +371,7 @@ footer .pure-menu-link:hover {
 
   .sidebar-info {
     margin: 5% 2em 0;
+    min-width: 350px;
   }
 
   .brand-photo {
@@ -408,7 +439,6 @@ footer .pure-menu-link:hover {
 
 .jekyll-header {
   text-align: center;
-  text-decoration: underline;
   font-size: 48px;
   margin-bottom: 0px;
   color: #222;
@@ -435,7 +465,7 @@ footer ul {
 }
 
 .paginate * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "JeonjuCraftGoR", serif;
 }
 
 .paginate a:hover {
@@ -521,7 +551,7 @@ footer ul {
 #search,
 .search_res p,
 #results-container {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "JeonjuCraftGoR", serif !important;
 }
 
 #results-container {

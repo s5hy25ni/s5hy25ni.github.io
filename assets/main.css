@@ -238,6 +238,14 @@ footer .pure-menu-link:hover {
   margin: 0 auto;
 }
 
+.posts {
+  width: 100%  !important;
+}
+
+.posts .post-body {
+  width: 70%;
+}
+
 .post-entry h1,
 .post-entry h2,
 .post-entry h3 {
@@ -247,8 +255,12 @@ footer .pure-menu-link:hover {
 
 .post-header p {
   font-family: "JeonjuCraftGoR", serif;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: -10px;
+}
+
+.post-header a {
+  color: #F8A4AE;
 }
 
 .post-body p,

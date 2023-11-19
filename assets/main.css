@@ -259,6 +259,10 @@ footer .pure-menu-link:hover {
   margin-top: -10px;
 }
 
+.posts .post-header {
+  border-bottom: 1px solid #eee;
+}
+
 .post-header a {
   color: #F8A4AE;
 }

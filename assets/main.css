@@ -179,7 +179,7 @@ footer .pure-menu-link:hover {
 
 .brand-tagline {
   font-weight: 300;
-  color: #ddd;
+  color: #F5F5F5;
   font-size: 18px;
 }
 
@@ -198,7 +198,7 @@ footer .pure-menu-link:hover {
 .nav-item a {
   background: transparent;
   /* border: 2px solid #fff; */
-  color: #ddd;
+  color: #F5F5F5;
   padding: 0.5em 0.5em;
   /* margin-top: 1em;
   margin-right: 5px;
@@ -240,10 +240,6 @@ footer .pure-menu-link:hover {
 
 .posts {
   width: 100%  !important;
-}
-
-.posts .post-body {
-  width: 70%;
 }
 
 .post-entry h1,
@@ -412,6 +408,10 @@ footer .pure-menu-link:hover {
     width: 30%;
   }
 
+  .posts .post-body {
+    width: 70%;
+  }
+  
   /* footer .pure-menu-link {
     padding: 0.5em 5px;
   } */

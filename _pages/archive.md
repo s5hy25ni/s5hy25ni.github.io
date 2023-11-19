@@ -15,7 +15,7 @@ title: Archive of All Posts
   </ul>
   {% endif %}
 {% endfor %} -->
-<div class="pure-u-1 tags">
+<div class="archive">
   {% for post in site.posts %}
     {% assign cur_year = post.date | date: '%Y' %}
 

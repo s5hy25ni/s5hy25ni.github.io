@@ -143,8 +143,10 @@ code {
 
 .highlighter-rouge{
     background-color: #F5F5F5;
-    border-radius: 3px;
-    padding: 3px;
+    color: midnightblue;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 .highlight .kn,

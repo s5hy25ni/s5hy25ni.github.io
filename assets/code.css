@@ -134,6 +134,7 @@
 
 pre.highlight{
     margin: 0px;
+    padding: 5px;
     overflow: auto;
 }
 
@@ -143,10 +144,11 @@ code {
 
 .highlighter-rouge{
     background-color: #F5F5F5;
-    color: midnightblue;
-    font-size: 15px;
-    border-radius: 4px;
+    color: #586e75;
+    font-size: 14px;
+    border-radius: 5px;
     padding: 2px;
+    margin-bottom: 2px;
 }
 
 .highlight .kn,

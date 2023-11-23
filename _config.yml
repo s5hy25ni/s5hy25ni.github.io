@@ -32,7 +32,8 @@ header_image: assets/profile.png
 
 google_analytics: G-CWX1ZFCLG3
 comments: true
-disqus: s5hy25ni-log
+disqus: 
+  shortname: 's5hy25ni-log'
 
 # author: s5hy25ni
 # author_bio: >-

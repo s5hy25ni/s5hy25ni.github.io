@@ -14,3 +14,13 @@
     모든 게시글은 Creative Commons Attribution 4.0 International License에 따라 라이선스가 부여됩니다.
   </p>
 </p>
+
+<p>
+  ☑️ Blog 개선 필요 사항
+  <ul>
+    <li>포스트 내 목차 기능</li>
+    <li>검색 기능 수정</li>
+    <li>연관 목록 생성</li>
+    <li>포스트 내 글 이동 기능</li>
+  </ul>
+</p>

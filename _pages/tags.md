@@ -5,7 +5,7 @@ permalink: /tags/
 content-type: eg
 ---
 
-<div>
+<main>
     {% for tag in site.tags %}
     <div class="pure-u-1 tags">
         <h3 id="{{ tag | first }}">{{ tag | first | capitalize }}</h3>
@@ -18,4 +18,4 @@ content-type: eg
     {% endfor %}
     <br/>
     <br/>
-</div>
+</main>

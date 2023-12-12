@@ -23,7 +23,7 @@ content-type: eg
         <h3 id="{{ category | first }}">{{ category | first  }}</h3>
         <ul>
             {% for post in category.last %}
-                <li id="category-content" style="padding-bottom: 0.6em;"><a href="{{post.url}}">{{ post.title }}</a></li>
+                <li id="category-content"><a href="{{post.url}}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
         </div>

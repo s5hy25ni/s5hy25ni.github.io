@@ -231,7 +231,7 @@ footer .pure-menu-link:hover {
 
 .post,
 .post-entry {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .post-entry {
@@ -265,19 +265,19 @@ footer .pure-menu-link:hover {
 
 .post-body p,
 .post-body li {
-  font-size: 16px;
+  font-size: 15px;
   text-align: left;
   line-height: 1.5;
 }
 
 .post-body blockquote p {
-  font-size: 22px;
+  font-size: 15px;
 }
 
 .post-title {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #222;
-  margin-bottom: 0.2em;
+  margin: 0.2em;
 }
 
 .post-avatar {
@@ -341,6 +341,7 @@ footer .pure-menu-link:hover {
 .archive-links a,
 .tags a {
   color: #444;
+  font-size: 15px;
 }
 
 .archive-links a:hover,
